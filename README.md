@@ -5,7 +5,7 @@ LooForms is designed to make form building easy and extendable. Building a form 
     $form = new LooForm();
     $form->addElement('LooTextField')
       ->label('Blue Smurf')
-      ->prefix('Watch out for Gargamel');
+      ->prefix('Watch out for Gargamel')
     ->addElement('LooSubmit')
       ->value('Yodel like a champ')
     ->render();
@@ -15,7 +15,7 @@ Sometimes you want to render a group of elements not necessarily part of a form.
     $group = new LooGroup();
     $group->addElement('LooTextField')
       ->label('Blue Smurf')
-      ->prefix('Watch out for Gargamel');
+      ->prefix('Watch out for Gargamel')
     ->addElement('LooSubmit')
       ->value('Yodel like a champ')
     ->render();

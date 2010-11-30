@@ -9,7 +9,9 @@
 require '../src/Autoload.php';
 
 class Testit extends LooElement {
-  
+  public function html() {
+    return;
+  }
 }
 
 $test = new Testit();
